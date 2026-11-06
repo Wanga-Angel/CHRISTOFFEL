@@ -17,3 +17,7 @@ While the <Flat List> component does the heavy lifting on the homepage, renderin
 Finally, using <Touchable Opacity> for the buttons gives the user satisfying visual feedback. Seeing the button react instantly lets a busy chef confidently lock their phone and get straight back to the stove, turning what used to be a frustrating administrative chore into a quick, five-second routine.
 
 youtube: https://youtu.be/W42t8NY6H_U?si=w7vAyHqf6uyE2cje
+
+I added onto my original TypeScript React Native application by adding the ability to edit, update and delete menu items, with changes reflected immediately. I also added name-based searching, course filtering and dropdown options for Starter, Main Course and Dessert. These features make it easier to find and organise dishes. To help the chef understand the menu, I added statistics showing the total number of dishes, their average price and the number of dishes in each course.
+
+I separated the customer menu from the Chef Board so customers can browse dishes while all adding, editing and removing controls remain in the chef’s workspace. I redesigned the application using ivory backgrounds, forest-green colours, gold accents and elegant headings to give it a fancy restaurant appearance. I also introduced reusable components, input validation, success and error messages, and deletion confirmations to improve consistency, reduce repeated code and prevent accidental mistakes.
