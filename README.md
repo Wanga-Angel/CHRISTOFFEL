@@ -10,6 +10,7 @@ List four functions the application should perform.-	1. Add a brand-new dish to 
 List two usability requirements the application should have.-	1. High contrast and big text: Kitchens get chaotic and hot, so the text needs to be easy to read at a quick glance while cooking.
 2. Fast, simple navigation: The chef shouldn't have to fight with the app; saving or finding a dish needs to take just a few quick taps.
 
+part2
 Design Reflection 
 This mobile application layout focuses entirely on solving the real-world headaches of running a busy kitchen. Swapping out a stained, easily lost paper menu for a clean digital app saves valuable time when the dinner rush hits. Because kitchens are loud, high-pressure environments, the app avoids tiny buttons. Instead, it relies on large input fields, obvious labels, and custom number-only pads for pricing. These small, thoughtful choices go a long way in preventing annoying typos when the chef is trying to type with messy hands or while multi-tasking.
 The specific React Native components were chosen to make the app feel second nature to use. By utilizing a native <Picker> dropdown for course selection, the chef can categorize a meal with one tap rather than wasting time typing "Starter" or "Main Course" repeatedly. This keeps the restaurant's menu data perfectly uniform. 
@@ -18,6 +19,9 @@ Finally, using <Touchable Opacity> for the buttons gives the user satisfying vis
 
 youtube: https://youtu.be/W42t8NY6H_U?si=w7vAyHqf6uyE2cje
 
+part3
 I added onto my original TypeScript React Native application by adding the ability to edit, update and delete menu items, with changes reflected immediately. I also added name-based searching, course filtering and dropdown options for Starter, Main Course and Dessert. These features make it easier to find and organise dishes. To help the chef understand the menu, I added statistics showing the total number of dishes, their average price and the number of dishes in each course.
 
 I separated the customer menu from the Chef Board so customers can browse dishes while all adding, editing and removing controls remain in the chef’s workspace. I redesigned the application using ivory backgrounds, forest-green colours, gold accents and elegant headings to give it a fancy restaurant appearance. I also introduced reusable components, input validation, success and error messages, and deletion confirmations to improve consistency, reduce repeated code and prevent accidental mistakes.
+
+youtube: https://youtu.be/FccJft_8jEk?si=j2R2om4-729_qHf9
